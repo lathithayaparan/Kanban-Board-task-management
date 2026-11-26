@@ -1,0 +1,31 @@
+{
+  "name": "kanban-starter",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "^24.11.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "check-deps": "node scripts/check-deps.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "jsdom": "29.1.1",
+    "typescript": "^5",
+    "vitest": "5.1.1"
+  }
+}
